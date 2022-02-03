@@ -73,11 +73,12 @@ public class Part3
 				
 			}
 		}
-		
+		/*
 		System.out.println("Maximum= "+max);
 		String newValue="$"+String.valueOf(max);
 		System.out.println("newValue= "+newValue);
 		System.out.println("Clicking on the element.....");
+		*/
 		count++;
 		cartEle=driver.findElement(By.xpath("(//div[@class='pricebar']//button[contains(text(),'Add to cart')])"+"["+count+"]"));
 		System.out.println(cartEle);
